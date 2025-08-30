@@ -7,7 +7,7 @@ A classroom system in Java developed for a System Development class! (it's in Po
 Capabilities:
 - Classroom CRUD
 - Activities CRUD
-- Users (a Teacher can have lots of Classrooms and vice-versa)
+- Users (a Teacher can have lots of Classrooms and vice versa)
 
 Everything made in 2:45h for a practical exam here in my school!
 
