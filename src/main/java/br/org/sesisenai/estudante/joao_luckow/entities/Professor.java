@@ -1,19 +1,13 @@
 package br.org.sesisenai.estudante.joao_luckow.entities;
 
 import br.org.sesisenai.estudante.joao_luckow.Main;
-import br.org.sesisenai.estudante.joao_luckow.database.DatabaseConnection;
 import com.j256.ormlite.dao.Dao;
 import com.j256.ormlite.field.DatabaseField;
-import com.j256.ormlite.stmt.PreparedQuery;
-import com.j256.ormlite.stmt.QueryBuilder;
 import com.j256.ormlite.table.DatabaseTable;
 import org.apache.commons.codec.digest.DigestUtils;
 
-import java.nio.charset.StandardCharsets;
 import java.sql.SQLException;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 @DatabaseTable(tableName = "professor")
 public class Professor {
@@ -32,22 +26,6 @@ public class Professor {
     public Professor(String name, String password) {
         this.name = name;
         this.password = password;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
-    public int getId() {
-        return id;
     }
 
     public String getName() {

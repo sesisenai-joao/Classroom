@@ -4,10 +4,11 @@
  */
 package br.org.sesisenai.estudante.joao_luckow.desktop;
 
-import br.org.sesisenai.estudante.joao_luckow.entities.Professor;
 import br.org.sesisenai.estudante.joao_luckow.Main;
+import br.org.sesisenai.estudante.joao_luckow.entities.Professor;
+
+import javax.swing.*;
 import java.sql.SQLException;
-import javax.swing.JOptionPane;
 
 /**
  *

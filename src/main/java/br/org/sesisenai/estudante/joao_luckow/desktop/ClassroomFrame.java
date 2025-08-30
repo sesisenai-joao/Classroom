@@ -8,8 +8,9 @@ import br.org.sesisenai.estudante.joao_luckow.Main;
 import br.org.sesisenai.estudante.joao_luckow.entities.Atividade;
 import br.org.sesisenai.estudante.joao_luckow.entities.Turma;
 import com.j256.ormlite.dao.Dao;
+
+import javax.swing.*;
 import java.sql.SQLException;
-import javax.swing.JOptionPane;
 
 /**
  *

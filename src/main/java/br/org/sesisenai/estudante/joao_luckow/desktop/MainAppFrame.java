@@ -7,7 +7,7 @@ package br.org.sesisenai.estudante.joao_luckow.desktop;
 import br.org.sesisenai.estudante.joao_luckow.Main;
 import br.org.sesisenai.estudante.joao_luckow.entities.Turma;
 
-import javax.swing.JOptionPane;
+import javax.swing.*;
 
 /**
  *

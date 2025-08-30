@@ -1,13 +1,7 @@
 package br.org.sesisenai.estudante.joao_luckow.entities;
 
-import br.org.sesisenai.estudante.joao_luckow.Main;
-import com.j256.ormlite.dao.Dao;
 import com.j256.ormlite.field.DatabaseField;
 import com.j256.ormlite.table.DatabaseTable;
-
-import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.List;
 
 @DatabaseTable(tableName = "atividade")
 public class Atividade {
