@@ -8,14 +8,11 @@ public class ProfessorTurma {
     @DatabaseField(generatedId = true, columnName = "id_professor_turma")
     int id;
 
-    @DatabaseField(foreign = false, columnName = "id_professor")
+    @DatabaseField(columnName = "id_professor")
     int professor;
 
-    @DatabaseField(foreign = false, columnName = "id_turma")
+    @DatabaseField(columnName = "id_turma")
     int turma;
-
-    public ProfessorTurma() {
-    }
 
     public ProfessorTurma(int professor, int turma) {
         this.professor = professor;
